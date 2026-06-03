@@ -99,3 +99,41 @@ button {
   border-radius: 10px;
   font-weight: 700;
 }
+
+.info {
+  background-color: #F9FAF8;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 900;
+  gap: 30px;
+}
+
+.people {
+  display: flex;
+  gap: 32px;
+}
+
+.person img {
+  width: 200px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #3882F6;
+  border-radius: 15px;
+}
+
+.person {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  color: #adadad;
+  font-size: 16px;
+  align-items: center;
+  text-align: center;
+  font-weight: 400;
+  gap: 10px;
+}
