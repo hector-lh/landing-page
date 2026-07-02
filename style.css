@@ -167,3 +167,47 @@ button {
   font-size: 22px;
   font-weight: bold;
 }
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px;
+  background-color: #F9FAF8;
+}
+
+.call {
+  display: flex;
+  background: #3882F6;
+  width: 70%;
+  padding: 50px 70px;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.call button {
+  border-color: #F9FAF8;
+  border-style: groove;
+  border-width: 2px;
+  margin-right: 30px;
+  width: 100px;
+  height: 40px;
+}
+
+.action {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  flex-grow: 2;
+}
+
+.action p, .action h3 {
+  margin: 0;
+  margin-bottom: 5px;
+  color: #F9FAF8;
+}
+
+.action h3 {
+  font-size: 20px;
+  font-weight: 900;
+}
